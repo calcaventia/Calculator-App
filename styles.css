@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #53a8b6;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+}
+
+fieldset {
+  display: block;
+  margin: 0 auto;
+  padding: 2%;
+  width: 50%;
+  height: 200px;
+  background-color: #bbe4e9;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+label {
+  margin-right: 10px;
+}
+
+#number-input {
+  text-align: right;
+}
+
+#num-a {
+  border-radius: 10px;
+  border: 1px solid;
+  height: 25px;
+}
+
+#num-b {
+  border-radius: 10px;
+  border: 1px solid;
+  height: 25px;
+}
+
+ul#arithmetic-input {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  padding: 0px 40px;
+}
+
+#calculate-button {
+  border-radius: 10px;
+  border: none;
+  padding: 1% 2% 1% 2%;
+  background-color: #6643b5;
+  color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+}
+
+#calculate-button:hover {
+  opacity: 80%;
+}
+
+#reset-button {
+  border-radius: 10px;
+  border: none;
+  padding: 1% 2% 1% 2%;
+  background-color: #6643b5;
+  color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+}
+
+#reset-button:hover {
+  opacity: 80%;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
